@@ -13,9 +13,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-//https://github.com/schwarzeni/Go-000/blob/main/Week03/cmd/cmd.go
-//https://github.com/fizzse/Go-000/blob/main/Week03/work.go
-
+//https://pkg.go.dev/context
 //https://pkg.go.dev/golang.org/x/sync/errgroup
 
 //视频1时:45分左右
