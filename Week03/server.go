@@ -31,7 +31,7 @@ func main() {
 		case <-sigs:
 			log.Println("catch quit signal.")
 			cancel()
-			return errors.New("catch quit signal.")
+			return nil
 		case <-ctx0.Done():
 			return nil
 		}
